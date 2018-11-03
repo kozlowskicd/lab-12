@@ -5,6 +5,7 @@ import schema from './mongo/teams.js';
 
 const storage = new Storage(schema);
 
+
 class Teams {
 
   static findOne(id) {
