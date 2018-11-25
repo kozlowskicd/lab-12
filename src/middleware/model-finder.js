@@ -3,13 +3,12 @@
 import requireDirectory from 'require-directory';
 
 const models = requireDirectory(module, '../models', {recurse: false});
-console.log(models);
+
 /*
 {
   notes: { default: [Function: Notes] },
   tasks: { default: [Function: Tasks] }
 }
-
  */
 
 export default (req,res,next) => {

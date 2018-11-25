@@ -1,6 +1,6 @@
 'use strict';
 
-import Model from './default-model.js';
+import Model from './defaultModel.js';
 import schema from './schemas/products.js';
 
 class Products extends Model {}
