@@ -9,7 +9,6 @@ const models = requireDirectory(module, '../models', {recurse: false});
   notes: { default: [Function: Notes] },
   tasks: { default: [Function: Tasks] }
 }
-
  */
 
 export default (req,res,next) => {
